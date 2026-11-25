@@ -6,3 +6,5 @@ On été ajoutés les contrôles de la voiture 1 avec les flèches, ainsi que le
 
 Dans le commit suivant: "Drift adaptatif au terrain"
 La mécanique du drift a été complètement changée pour être plus réaliste, de plus, la physique de la voiture s'adapte deshormès au terrain sur lequel elle évolue.
+
+Aucune ia n'a été utilisée pour ces etapes, seulement l'aide de visual studio code qui fini les lignes avec TAB.
