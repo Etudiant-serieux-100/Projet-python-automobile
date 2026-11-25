@@ -9,6 +9,7 @@ GRID_ROWS = 12
 CAR_ACCELERATION = 0.05
 CAR_WIDTH = 30
 CAR_HEIGHT = 50
+STREER_SPEED_RATIO = 5  # Ratio de vitesse pour ajuster la vitesse de rotation en fonction de la vitesse de la voiture
 
 
 class GameState:
