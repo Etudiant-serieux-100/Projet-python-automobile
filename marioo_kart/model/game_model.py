@@ -2,7 +2,7 @@ from constants import GameState, GRID_ROWS, GRID_COLS
 from model.car import Car
 from model.circuit import Circuit
 from model.road_tile import RoadTile
-
+from constants import (BITUME, TERRE, GLACE, HERBE, VIDE, MUR)
 
 class GameModel:
 
@@ -18,7 +18,7 @@ class GameModel:
         self.spawn_car()
 
     def spawn_car(self) -> None:
-        self.car = Car(7, 1, 0.0)
+        self.car = Car(7, 1, 0.0, BITUME)
 
     def update(self) -> None:
         if self.state != GameState.RACING or self.circuit is None:
